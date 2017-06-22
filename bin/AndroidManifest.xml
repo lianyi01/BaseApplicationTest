@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dhgate.buyermob.test.testcase.login"
+        android:versionCode="48"
+    android:versionName="2.0" >
+    
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.dhgate.buyermob" />
+    
+    <instrumentation
+        android:name="com.dhgate.buyermob.test.runners.CommonRunner"
+        android:targetPackage="com.dhgate.buyermob" />
+     <instrumentation
+        android:name="com.dhgate.buyermob.test.runners.Runner1"
+        android:targetPackage="com.dhgate.buyermob" />
+
+    <application android:label="com.dhgate.buyermob.test" >
+        <uses-library android:name="android.test.runner" />
+    </application>
+ 
+</manifest>
