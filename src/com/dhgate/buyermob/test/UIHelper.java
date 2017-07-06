@@ -6,6 +6,7 @@ import com.dhgate.buyermob.test.elements.ElementsLoginActivity;
 import com.dhgate.buyermob.test.elements.ElementsMyacountActivity;
 import com.dhgate.buyermob.test.elements.ElementsSearchActivity;
 import com.dhgate.buyermob.test.elements.ElementsSkuActivity;
+import com.dhgate.buyermob.test.elements.ElementsUpdateActivity;
 import com.robotium.solo.Solo;
 
 /**
@@ -21,6 +22,7 @@ public class UIHelper {
 	private  ElementsSearchActivity   elementsSearchActivity;
 	private  ElementsItemActivity      elementsItemActivity;
 	private  ElementsSkuActivity      elementsSkuActivity;
+	private  ElementsUpdateActivity   elementsUpdateActivity;
 
 	public UIHelper(Solo solo){
 		this.solo = solo;
@@ -127,6 +129,23 @@ public class UIHelper {
 		}
 		elementsSkuActivity.initViews();
 		return elementsSkuActivity;
+	}
+
+	
+	/**
+	 * 获取update升级页面控件类的方法
+	 * @return
+	 * */
+	
+	public  ElementsUpdateActivity getElementsUpdateActivity() {
+		
+		//控件类对象为空时再实例化
+		
+		if(elementsUpdateActivity == null){
+			elementsUpdateActivity = new ElementsUpdateActivity(solo);
+		}
+		elementsUpdateActivity.initViews();
+		return elementsUpdateActivity;
 	}
 
 

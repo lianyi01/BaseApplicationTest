@@ -22,7 +22,7 @@ public class BasicTestCaseWithSearch extends BasicTestCase {
 		// TODO Auto-generated method stub
 
 		super.setUp();
-		uiHelper.getElementsSearchActivity().doSearchWithKey("396172867");
+		uiHelper.getElementsSearchActivity().doSearchWithKey("dress");
 	}
 
 	

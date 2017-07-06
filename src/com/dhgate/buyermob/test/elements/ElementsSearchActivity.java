@@ -1,6 +1,6 @@
 package com.dhgate.buyermob.test.elements;
 
-import com.dhgate.buyermob.test.testcase.login.R;
+
 import com.dhgate.buyermob.test.utils.Util;
 import com.robotium.solo.Solo;
 

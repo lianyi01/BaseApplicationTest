@@ -3,7 +3,7 @@ package com.dhgate.buyermob.test.elements;
 import java.util.ArrayList;
 import java.util.Random;
 
-import com.dhgate.buyermob.test.testcase.login.R;
+
 import com.dhgate.buyermob.test.utils.Util;
 import com.robotium.solo.Solo;
 
@@ -103,7 +103,9 @@ public class ElementsSkuActivity {
 	 * 
 	 * 选择itemcode：229518812
 	 * 两个SKU组，选择两个SKU组中第一个SKU
+	 * Two SKU groups, select the first SKU in the two SKU groups
 	 * 按for循环选择sku
+	 * Click for loop to select sku
 	 * */
 public void selectSkuFirstFor(){
 	//listview->LinearLayout(2个sku)->view->LinearLayout

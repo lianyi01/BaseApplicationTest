@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.dhgate.buyermob.test.testcase.login;
+package com.dhgate.buyermob;
 
 public final class R {
     public static final class attr {
